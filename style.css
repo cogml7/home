@@ -69,6 +69,7 @@ article {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 20px;
 }
 
 section {
@@ -78,7 +79,8 @@ section {
     justify-content: center;
     flex-direction: column;
     display: inline-block;
-    margin: 50px;
+    margin: 80px;
+    padding: 10px;
     flex-direction: row;
 }
 
@@ -97,17 +99,12 @@ li {
     background-color: rgba(255, 255, 255, 0.6);
     color: black;
     text-align: center;
-    margin: 5px;
-}
-
-.p2 {
-    margin: 0 auto;
+    margin: 3px;
 }
 
 .p1 {
     margin: auto;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -145,11 +142,14 @@ li {
         justify-content: center;
         align-items: center;
         list-style: none;
+        border-radius: 50px;
     }
 
     li {
         padding: 10px;
         margin: 45px;
+        height: 20px;
+        border-radius: 50px;
     }
 
 }
@@ -192,12 +192,13 @@ li {
 }
 
 .a7 {
-    margin: auto;
+    margin: 10px;
+    border: solid 2px white;
 }
 
 .z5 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: ;
 }
